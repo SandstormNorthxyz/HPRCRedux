@@ -7,6 +7,7 @@
 #include "hardware/i2c.h"
 #include "I2CUtils.h"
 #include "ICM46288.h"
+#include "LPS25.h"
 
 
 int main() {
@@ -18,10 +19,14 @@ int main() {
 
   setupi2c();
   icm42688Init();
+  lps25Init();
 
   while (true) {
     icm42688Poll();
+    lps25Poll();
     icm42688PrintData();
+    printf("\t\t");
+    lps25Poll();
     printf("\n");
 
     sleep_ms(5);
