@@ -1,2 +1,6 @@
 build/
+cmake-build-debug/
 **/.DS_Store
+shell.nix
+.cache/
+.compile_commands.json
