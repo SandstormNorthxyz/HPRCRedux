@@ -1,0 +1,3 @@
+/Users/colli/Documents/CurrentProjects/HPRC/Flash2/build/pioasm/CMakeFiles/pioasm.dir
+/Users/colli/Documents/CurrentProjects/HPRC/Flash2/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/colli/Documents/CurrentProjects/HPRC/Flash2/build/pioasm/CMakeFiles/rebuild_cache.dir
